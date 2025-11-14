@@ -17,6 +17,8 @@ public class HelloWorldController {
         return "Hello World Master " + name;
     }
     
+    // Comment to test jenkins connection
+
     @GetMapping("/")
     public String getHomeScreen() {
         return "Welcome Home";

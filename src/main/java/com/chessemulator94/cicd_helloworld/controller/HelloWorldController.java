@@ -16,4 +16,10 @@ public class HelloWorldController {
     public String getHelloPerson(@RequestParam String name) {
         return "Hello World Master " + name;
     }
+    
+    @GetMapping("/")
+    public String getHomeScreen() {
+        return "Welcome Home";
+    }
+    
 }
